@@ -1,5 +1,6 @@
 # 2023_wa_sa_hajek
 
+<h2>Zdravim</h2>
 <ul>
   <li> Ahoj </li>
   <li>jak se</li>
@@ -9,5 +10,4 @@
 My favorite search engine is not [Bing](https://bing.com).
 
 
-
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+![Alt text](https://www.boredpanda.com/blog/wp-content/uploads/2019/11/google-vs-bing-memes-fb11.png "a title")
