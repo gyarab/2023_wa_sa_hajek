@@ -8,5 +8,6 @@
   
 My favorite search engine is not [Bing](https://bing.com).
 
- [![nice]("https://static.demilked.com/wp-content/uploads/2019/11/5dc91ec5aff76-google-vs-bing-memes-coverimage-1.jpg")
 
+
+![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
