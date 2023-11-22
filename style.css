@@ -1,0 +1,17 @@
+.prvni{
+    color: rgb(9, 255, 0);
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .druhy{
+    color: rgb(17, 0, 255);
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .treti{
+    color: rgb(255, 0, 0);
+    font-size: 10px;
+    font-weight: bold;
+  }
