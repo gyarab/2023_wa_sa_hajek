@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moje super stránka</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-    <table border="1">
-        <tr>
-          <th><a href="prvni.html">prvni</a>
-          <th><a href="druhy.html">druhy</a>
-          <th>zde jsi
-        </table>
+    <h1>Toto je test HTML a CSS</h1>
 
-    
+    <button  onclick="zmen()">Zmackni me</button>
+
+    <hr>
+
+    <img src="https://place-hold.it/200x100/ff0000" alt="cerveny">
+    <img id="obr02" src="https://place-hold.it/200x100/00ff00" alt="zeleny" style="display:none">
+    <img src="https://place-hold.it/200x100/0000ff" alt="modry">
 
     <p class="prvni">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempore tenetur vel voluptatem repudiandae debitis dolore, molestiae sapiente dolores totam ut fugiat voluptates iste hic quis tempora sunt, accusantium dolor?</p>
 
@@ -24,6 +23,21 @@
 
     <p class="treti">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit esse maxime sed quo neque, aspernatur nam exercitationem labore cum, fugit laboriosam error consequuntur, recusandae assumenda quaerat aliquam id consequatur sequi.</p>
 
+    <script>
+        var otevreno = false;
 
+        function zmen() {
+            otevreno = !otevreno
+            console.log(otevreno)
+
+            const el = document.getElementById("obr02")
+            if (otevreno) {
+                el.style.display = "block";
+            }
+            else {
+                el.style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>
